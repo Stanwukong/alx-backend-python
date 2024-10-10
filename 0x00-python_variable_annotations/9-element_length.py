@@ -2,6 +2,7 @@
 """Returns a list of tuples"""
 from typing import Iterable, List, Sequence, Tuple
 
+
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
        Takes an iterable of sequences and returns a list of tuples.
